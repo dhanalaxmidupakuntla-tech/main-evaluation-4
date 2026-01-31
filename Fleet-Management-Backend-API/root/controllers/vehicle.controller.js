@@ -1,4 +1,4 @@
-import { supabase } from '../config/supabaseClient.js';
+import { supabase } from '../config/supabase.js';
 
 export const addVehicle = async (req, res) => {
     const {owner_id, name, registration_number, allowed_passengers, rate_per_km} = req.body;
@@ -46,7 +46,7 @@ export const assignDriver = async (req, res) => {
     res.status(200).json({ message: "Driver assigned successfully" });
 };
 
-export const getvehicle = async (req, res) => {
+export const getVehicle = async (req, res) => {
     const { vehicleId } = req.params;
     const { data } = await supabase
         .from('vehicles')

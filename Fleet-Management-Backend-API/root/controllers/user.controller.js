@@ -1,4 +1,4 @@
-import { supabase } from "../config/supabase.config.js";
+import { supabase } from "../config/supabase.js";
 
 export const regiterUser = async (req, res) => {
     try {

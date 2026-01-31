@@ -7,7 +7,6 @@ import tripRoutes from "./routes/trip.routes.js";
 import analyticsRoutes from "./routes/analytics.routes.js";
 import {logger} from "./middleware/logger.middleware.js";
 import { notFound } from './middleware/notFound.middleware.js';
-import { dot } from 'node:test/reporters';
 
 dotenv.config();
 

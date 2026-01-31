@@ -1,4 +1,4 @@
-import { supabase } from '../config/supabaseClient.js';
+import { supabase } from '../config/supabase.js';
 
 export const getAnalytics = async (req, res) => {
     const customers = await supabase.from("users").select("*", {count: "exact"}).eq("role", "customer");
