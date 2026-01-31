@@ -1,0 +1,18 @@
+{
+  "name": "fleet-management-backend-api",
+  "version": "1.0.0",
+  "description": "Fleet Management System\r Node.js + Express + Supabase\r 🎯 Objective\r Design and build a Fleet Management Backend API using:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.93.3",
+    "dotenv": "^17.2.3",
+    "express": "^5.2.1"
+  }
+}
